@@ -23,13 +23,16 @@ export default {
 p {
   margin: 0;
 }
-.topBar {
-}
+
 .icon{
   background-color: #444444;
   padding: 8px 0;
 }
 .siderBarBox{
   background-color: #D9D9D9;
+}
+
+@media screen and (max-width:  842px){
+
 }
 </style>

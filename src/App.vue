@@ -28,6 +28,7 @@ export default {
     InputOtp,
     SideBarStatic,
     PerformanceBonus,
+ 
   },
 };
 </script>
@@ -42,7 +43,21 @@ export default {
 }
 .differentBox {
   width: 80%;
+  padding:20px;
+  border-top: 63px solid black;
+  border-bottom: 50px solid black;
 
 }
+@media screen and (max-width:  842px){
+  .differentBox {
+  width: 100%;
+   border-top: 20px solid black;
+  border-bottom: 20px solid black;
+}
+.sidebar {
+  display: none;
+}
+}
+
 
 </style>
