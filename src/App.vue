@@ -4,8 +4,12 @@
       <SideBarStatic />
     </div>
     <div class="differentBox">
-      <PerformanceBonus />
+    <Demo/>
     </div>
+  </div>
+  <div>
+
+    
   </div>
 </template>
 <script>
@@ -15,6 +19,7 @@ import "./index.css";
 import InputOtp from "primevue/inputotp";
 import SideBarStatic from "./Component/SideBarStatic.vue";
 import PerformanceBonus from "./Component/PerformanceBonus.vue";
+import Demo from "./Component/Demo.vue";
 
 export default {
   data() {
@@ -28,6 +33,7 @@ export default {
     InputOtp,
     SideBarStatic,
     PerformanceBonus,
+    Demo
  
   },
 };
